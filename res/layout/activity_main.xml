@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E2F4F4F4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phantom player "
+        android:textSize="30dp"
+        android:paddingLeft="130dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:onClick="play"
+        android:text="Play" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="150dp"
+        android:onClick="pause"
+        android:text="Pause" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="210dp"
+        android:onClick="stop"
+        android:text="stop" />
+
+
+    <ImageView
+        android:id="@+id/musicImage"
+        android:layout_width="122dp"
+        android:layout_height="126dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@id/pause"
+        android:rotationX="0"
+        android:rotationY="0"
+        app:srcCompat="@drawable/logo" />
+
+    <SeekBar
+        android:id="@+id/seekVol"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="330dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="295dp"
+        android:layout_marginLeft="110dp"
+        android:text="Adjust Volume" />
+
+    <TextView
+        android:id="@+id/musicView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music seekBar"
+        android:layout_marginTop="360dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <SeekBar
+        android:id="@+id/seekProg"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="400dp"
+        />
+
+</RelativeLayout>

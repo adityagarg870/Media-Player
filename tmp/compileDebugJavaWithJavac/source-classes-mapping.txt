@@ -1,0 +1,7 @@
+com/example/phantomplayer_/BuildConfig.java
+ com.example.phantomplayer_.BuildConfig
+com/example/phantomplayer_/MainActivity.java
+ com.example.phantomplayer_.MainActivity
+ com.example.phantomplayer_.MainActivity$1
+ com.example.phantomplayer_.MainActivity$2
+ com.example.phantomplayer_.MainActivity$3
